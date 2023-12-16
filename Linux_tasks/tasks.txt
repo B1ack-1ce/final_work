@@ -1,0 +1,31 @@
+ 1721  cat > pets
+
+ 1722  cat > pack_animals
+
+ 1727  cat > animals
+
+ 1728  cat pack_animals >> animals | cat pets >> animals 
+
+ 1731  mv animals friends_of_human
+
+ 1733  mkdir some_dir
+
+ 1734  mv friends_of_human some_dir/
+-------------------
+
+ 1743  sudo dpkg -i ~/Загрузки/mysql-apt-config_0.8.28-1_all.deb 
+
+ 1744  sudo apt update
+
+ 1745  sudo apt install mysql-server mysql-client
+
+ 1746  mysql --version
+--------------------
+
+ 1778  sudo dpkg -i opera-stable_105.0.4970.34_amd64.deb 
+
+ 1779  dpkg -l | grep opera
+
+ 1783  sudo dpkg -r opera-stable
+
+ 1784  dpkg -l | grep opera
